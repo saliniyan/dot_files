@@ -1,0 +1,27 @@
+image=/home/saliniyan/Documents/wallpaper_freeze/cat.jpeg
+
+indicator-caps-lock
+font=FiraSans
+font=FiraSans
+indicator-radius=125
+line-color=#88c0d0
+text-color=#eceff4
+inside-color=#4c566a88
+inside-ver-color=#34d39998
+line-ver-color=#34d399
+ring-color=1f1f28
+ring-clear-color=ffa066
+ring-caps-lock-color=1f1f28
+ring-ver-color=98bb6c
+ring-wrong-color=1f1f28
+key-hl-color=#88c0d0
+separator-color=#4c566a
+layout-text-color=#eceff4
+line-wrong-color=#bf616a
+effect-blur=10x10
+show-failed-attempts
+screenshots
+time-effects
+fade-in 3
+grace 30
+
