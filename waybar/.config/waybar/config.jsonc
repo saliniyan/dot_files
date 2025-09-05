@@ -2,7 +2,7 @@
   "layer": "top", "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["tray", "bluetooth", "pulseaudio", "battery", "custom/powerDraw"],
+  "modules-right": ["tray", "custom/colorpicker", "bluetooth", "pulseaudio", "battery", "custom/powerDraw"],
   "reload_style_on_change":true,
 
   "custom/logo": {
@@ -78,6 +78,14 @@
       "on-click": "nm-connection-editor"
     },
 
+  "custom/colorpicker": {
+    "format": "{}",
+    "return-type": "json",
+    "interval": "once",
+    "exec": "~/.config/waybar/scripts/colorpicker.sh -j",
+    "on-click": "sleep 1 && ~/.config/waybar/scripts/colorpicker.sh",
+    "signal": 1
+  },
 
 "custom/networktraffic": {
   "exec": "~/.config/waybar/scripts/networktraffic.sh",
